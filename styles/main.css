@@ -1,0 +1,68 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #000; /* Black background for retro feel */
+  color: #0f0; /* Green text for retro feel */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid #0f0;
+  background-color: #111; /* Slightly lighter black for contrast */
+  border-radius: 10px;
+  box-shadow: 0 0 20px #0f0;
+  overflow-y: auto;
+}
+
+h1 {
+  color: #0f0;
+  text-align: center;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #222;
+  color: #0f0;
+  border: 2px solid #0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0f0;
+  color: #000;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+input {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+  background-color: #222;
+  color: #0f0;
+  border: 2px solid #0f0;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #fff;
+}
